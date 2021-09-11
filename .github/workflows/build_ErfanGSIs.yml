@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/16T/8.1.5.1/cn/20210826144247/1d39fdba/update.zip
-  ROM_NAME: Flyme
+  ROM_URL: https://bigota.d.miui.com/20.3.26/miui_MI6_20.3.26_c8081cf18a_9.0.zip
+  ROM_NAME: MIUI
   BUILD_TYPE: ab
   TZ: Asia/Shanghai
 
