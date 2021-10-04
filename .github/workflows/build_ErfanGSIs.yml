@@ -55,11 +55,10 @@ jobs:
               mkdir final
               zip -r final/GSI.zip ./*
        
-       - name: Upload GSI to cowTransfer
+       - name: Upload GSI to WeTransfer
          run: |
               cd $GITHUB_WORKSPACE/ErfanGSIs/output
-              curl -sL https://git.io/cowtransfer | sh
-              ./cowtransfer-uploader -p 12 ./final/GSI.zip
-
+              curl -sL https://git.io/file-transfer | sh
+              ./transfer wet ./final/GSI.zip
          
             
